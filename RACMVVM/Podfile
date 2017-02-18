@@ -1,0 +1,10 @@
+platform :ios, ‘8.0’
+use_frameworks!
+
+target 'RACMVVM' do
+
+	pod 'ReactiveCocoa', ‘~> 2.5’
+	pod 'Masonry', '~> 1.0.2' 
+	pod 'MJRefresh', '~> 3.1.12'
+
+end

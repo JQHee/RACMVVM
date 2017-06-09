@@ -79,6 +79,9 @@
 
 - (void)bindViewModel {
     // 数据绑定
+//    RAC(self.loginVM.account, account) = self.loginTF.rac_textSignal;
+//    RAC(self.loginVM.account, psw) = self.pswTF.rac_textSignal;
+//    RAC(self.loginBTN, enabled) = self.loginVM.loginEnableSignal;
     //RAC(self,rightNavButton.rac_command) = RACObserve(self.storeListViewModel, rightNavBtnCommand);
 }
 

@@ -31,6 +31,12 @@
 - (void)initWithModel {
     
     @weakify(self);
+    
+    // 按钮点击状态是否能点击
+//    self.loginEnableSignal = [RACSignal combineLatest:@[RACObserve(self.account, account), RACObserve(self.account, psw)] reduce:^id(NSString *v1, NSString *v2){
+//        return @(v1.length && v2.length);
+//    }];
+    
     // 下拉刷新
     [self.refreshCommand.executionSignals.switchToLatest subscribeNext:^(NSString *x) {
         @strongify(self);

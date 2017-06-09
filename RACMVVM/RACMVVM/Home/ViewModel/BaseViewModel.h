@@ -8,14 +8,14 @@
 
 #import <Foundation/Foundation.h>
 
-typedef enum : NSUInteger {
+typedef NS_ENUM(NSUInteger, JQRefreshDataStatus) {
     JQHeaderRefresh_HasMoreData = 1,
     JQHeaderRefresh_HasNoMoreData,
     JQFooterRefresh_HasMoreData,
     JQFooterRefresh_HasNoMoreData,
     JQRefreshError,
     JQRefreshUI,
-} JQRefreshDataStatus;
+} ;
 
 @protocol BaseViewModel <NSObject>
 

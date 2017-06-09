@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="egi-ow-OeF">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="egi-ow-OeF">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -48,7 +48,7 @@
                                                 <rect key="frame" x="0.0" y="28" width="375" height="135"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="GIe-If-5sg" id="HhW-lI-whJ">
-                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="134"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="134.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <subviews>
                                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dQk-8Q-7Wd">
@@ -125,6 +125,93 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="136.80000000000001" y="138.98050974512745"/>
+        </scene>
+        <!--Store List View Controller-->
+        <scene sceneID="zlB-B6-Qnv">
+            <objects>
+                <viewController storyboardIdentifier="StoreList" id="QuY-FR-NbI" customClass="StoreListViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="TBi-wl-Bcb"/>
+                        <viewControllerLayoutGuide type="bottom" id="fwG-c4-KZt"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Mpf-yv-IUH">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="150" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="p0i-VE-Z62">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="StoreListTableViewCell" rowHeight="150" id="6UV-ah-N41" customClass="StoreListTableViewCell">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="150"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="6UV-ah-N41" id="j6Z-3L-S5u">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="149.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="1kZ-Ro-oZ5">
+                                                    <rect key="frame" x="14" y="24" width="112" height="100"/>
+                                                    <color key="backgroundColor" red="1" green="0.43921568630000002" blue="0.26274509800000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="100" id="CE1-h7-KVS"/>
+                                                        <constraint firstAttribute="width" constant="112" id="krB-kr-4F2"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="店铺名称" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qeb-VO-oxE">
+                                                    <rect key="frame" x="134" y="24" width="233" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="店铺描述" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sYb-ic-IoX">
+                                                    <rect key="frame" x="134" y="60" width="233" height="20.5"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" relation="lessThanOrEqual" constant="60" id="Son-On-hZk"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="sYb-ic-IoX" firstAttribute="leading" secondItem="1kZ-Ro-oZ5" secondAttribute="trailing" constant="8" id="1Gn-y9-rkv"/>
+                                                <constraint firstItem="sYb-ic-IoX" firstAttribute="top" secondItem="Qeb-VO-oxE" secondAttribute="bottom" constant="15" id="9cW-Sa-JA1"/>
+                                                <constraint firstItem="1kZ-Ro-oZ5" firstAttribute="centerY" secondItem="j6Z-3L-S5u" secondAttribute="centerY" id="Fo3-ay-Lu5"/>
+                                                <constraint firstAttribute="trailing" secondItem="sYb-ic-IoX" secondAttribute="trailing" constant="8" id="WYA-2p-JZa"/>
+                                                <constraint firstItem="1kZ-Ro-oZ5" firstAttribute="leading" secondItem="j6Z-3L-S5u" secondAttribute="leading" constant="14" id="fEU-fK-e9S"/>
+                                                <constraint firstItem="Qeb-VO-oxE" firstAttribute="leading" secondItem="1kZ-Ro-oZ5" secondAttribute="trailing" constant="8" id="pvD-1g-cK2"/>
+                                                <constraint firstAttribute="trailing" secondItem="Qeb-VO-oxE" secondAttribute="trailing" constant="8" id="uZa-yg-5qK"/>
+                                                <constraint firstItem="Qeb-VO-oxE" firstAttribute="top" secondItem="1kZ-Ro-oZ5" secondAttribute="top" id="v4h-mA-iNH"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="storeDescLabel" destination="sYb-ic-IoX" id="5wT-8c-D8e"/>
+                                            <outlet property="storeImageView" destination="1kZ-Ro-oZ5" id="Rn4-3H-qah"/>
+                                            <outlet property="storeNameLabel" destination="Qeb-VO-oxE" id="eM7-l3-twn"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="QuY-FR-NbI" id="alc-7z-f4i"/>
+                                    <outlet property="delegate" destination="QuY-FR-NbI" id="r2d-X3-6Fc"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="p0i-VE-Z62" secondAttribute="trailing" id="KVQ-iJ-V8C"/>
+                            <constraint firstItem="p0i-VE-Z62" firstAttribute="leading" secondItem="Mpf-yv-IUH" secondAttribute="leading" id="VOt-j6-vkz"/>
+                            <constraint firstAttribute="bottom" secondItem="p0i-VE-Z62" secondAttribute="bottom" id="oTb-Rq-2dW"/>
+                            <constraint firstItem="p0i-VE-Z62" firstAttribute="top" secondItem="Mpf-yv-IUH" secondAttribute="top" id="xF7-oR-GmL"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="p0i-VE-Z62" id="FbK-qM-exo"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6UN-lk-s0x" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="856.79999999999995" y="138.98050974512745"/>
         </scene>
     </scenes>
 </document>

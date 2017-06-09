@@ -19,6 +19,11 @@
 		04BD48271E57D4BA001454CD /* HomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BD48261E57D4BA001454CD /* HomeView.m */; };
 		04BD48331E57D55F001454CD /* HomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BD48321E57D55F001454CD /* HomeModel.m */; };
 		04BD483C1E57D5EA001454CD /* HomeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BD483B1E57D5EA001454CD /* HomeCell.m */; };
+		666244941EEA2CEE00EFCB3C /* StoreListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 666244931EEA2CEE00EFCB3C /* StoreListViewController.m */; };
+		666244971EEA2D1700EFCB3C /* StoreListViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 666244961EEA2D1700EFCB3C /* StoreListViewModel.m */; };
+		6662449A1EEA2D3900EFCB3C /* StoreListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 666244991EEA2D3900EFCB3C /* StoreListModel.m */; };
+		6662449D1EEA2F1700EFCB3C /* StoreListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6662449C1EEA2F1700EFCB3C /* StoreListTableViewCell.m */; };
+		666244A11EEA3D0400EFCB3C /* QFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 666244A01EEA3D0400EFCB3C /* QFNetworking.m */; };
 		D5777A8B4256899DF517B140 /* Pods_RACMVVM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DBFFE4E322E1F58F6E5B7BD /* Pods_RACMVVM.framework */; };
 /* End PBXBuildFile section */
 
@@ -69,6 +74,16 @@
 		04BD483A1E57D5EA001454CD /* HomeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeCell.h; sourceTree = "<group>"; };
 		04BD483B1E57D5EA001454CD /* HomeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeCell.m; sourceTree = "<group>"; };
 		2DBFFE4E322E1F58F6E5B7BD /* Pods_RACMVVM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RACMVVM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		666244921EEA2CEE00EFCB3C /* StoreListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoreListViewController.h; sourceTree = "<group>"; };
+		666244931EEA2CEE00EFCB3C /* StoreListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoreListViewController.m; sourceTree = "<group>"; };
+		666244951EEA2D1700EFCB3C /* StoreListViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoreListViewModel.h; sourceTree = "<group>"; };
+		666244961EEA2D1700EFCB3C /* StoreListViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoreListViewModel.m; sourceTree = "<group>"; };
+		666244981EEA2D3900EFCB3C /* StoreListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoreListModel.h; sourceTree = "<group>"; };
+		666244991EEA2D3900EFCB3C /* StoreListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoreListModel.m; sourceTree = "<group>"; };
+		6662449B1EEA2F1700EFCB3C /* StoreListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoreListTableViewCell.h; sourceTree = "<group>"; };
+		6662449C1EEA2F1700EFCB3C /* StoreListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoreListTableViewCell.m; sourceTree = "<group>"; };
+		6662449F1EEA3D0400EFCB3C /* QFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QFNetworking.h; sourceTree = "<group>"; };
+		666244A01EEA3D0400EFCB3C /* QFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QFNetworking.m; sourceTree = "<group>"; };
 		D15866349B4A6329A245C148 /* Pods-RACMVVM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RACMVVM.release.xcconfig"; path = "Pods/Target Support Files/Pods-RACMVVM/Pods-RACMVVM.release.xcconfig"; sourceTree = "<group>"; };
 		E63BC8890ED17B1C9C66CD17 /* Pods-RACMVVM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RACMVVM.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RACMVVM/Pods-RACMVVM.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -124,6 +139,8 @@
 		04BD47E21E57CF14001454CD /* RACMVVM */ = {
 			isa = PBXGroup;
 			children = (
+				6662449E1EEA3CE500EFCB3C /* Core */,
+				6662448D1EEA2C5B00EFCB3C /* Store */,
 				04BD48181E57D29D001454CD /* Home */,
 				04BD47E61E57CF14001454CD /* AppDelegate.h */,
 				04BD47E71E57CF14001454CD /* AppDelegate.m */,
@@ -215,6 +232,62 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
+		6662448D1EEA2C5B00EFCB3C /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				666244911EEA2CC100EFCB3C /* ViewModel */,
+				666244901EEA2CAC00EFCB3C /* Model */,
+				6662448F1EEA2C9900EFCB3C /* View */,
+				6662448E1EEA2C8200EFCB3C /* Controller */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		6662448E1EEA2C8200EFCB3C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				666244921EEA2CEE00EFCB3C /* StoreListViewController.h */,
+				666244931EEA2CEE00EFCB3C /* StoreListViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6662448F1EEA2C9900EFCB3C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6662449B1EEA2F1700EFCB3C /* StoreListTableViewCell.h */,
+				6662449C1EEA2F1700EFCB3C /* StoreListTableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		666244901EEA2CAC00EFCB3C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				666244981EEA2D3900EFCB3C /* StoreListModel.h */,
+				666244991EEA2D3900EFCB3C /* StoreListModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		666244911EEA2CC100EFCB3C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				666244951EEA2D1700EFCB3C /* StoreListViewModel.h */,
+				666244961EEA2D1700EFCB3C /* StoreListViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6662449E1EEA3CE500EFCB3C /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				6662449F1EEA3D0400EFCB3C /* QFNetworking.h */,
+				666244A01EEA3D0400EFCB3C /* QFNetworking.m */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
 		FB2A78452CD4E42E785F8308 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -302,6 +375,7 @@
 				TargetAttributes = {
 					04BD47DF1E57CF14001454CD = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 9Z4ZJ5K368;
 						ProvisioningStyle = Automatic;
 					};
 					04BD47F81E57CF14001454CD = {
@@ -376,7 +450,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		86B64B0793A5CA1C18328695 /* [CP] Copy Pods Resources */ = {
@@ -419,7 +493,12 @@
 				04BD48331E57D55F001454CD /* HomeModel.m in Sources */,
 				04BD483C1E57D5EA001454CD /* HomeCell.m in Sources */,
 				04BD481F1E57D2E9001454CD /* ViewController.m in Sources */,
+				6662449D1EEA2F1700EFCB3C /* StoreListTableViewCell.m in Sources */,
+				666244A11EEA3D0400EFCB3C /* QFNetworking.m in Sources */,
 				04BD47E81E57CF14001454CD /* AppDelegate.m in Sources */,
+				666244971EEA2D1700EFCB3C /* StoreListViewModel.m in Sources */,
+				6662449A1EEA2D3900EFCB3C /* StoreListModel.m in Sources */,
+				666244941EEA2CEE00EFCB3C /* StoreListViewController.m in Sources */,
 				04BD48271E57D4BA001454CD /* HomeView.m in Sources */,
 				04BD47E51E57CF14001454CD /* main.m in Sources */,
 				04BD48231E57D3B5001454CD /* HomeViewModel.m in Sources */,
@@ -572,6 +651,7 @@
 			baseConfigurationReference = E63BC8890ED17B1C9C66CD17 /* Pods-RACMVVM.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9Z4ZJ5K368;
 				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/RACMVVM/RACMVVMHeader.pch";
@@ -587,6 +667,7 @@
 			baseConfigurationReference = D15866349B4A6329A245C148 /* Pods-RACMVVM.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9Z4ZJ5K368;
 				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/RACMVVM/RACMVVMHeader.pch";

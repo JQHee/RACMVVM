@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "HomeViewModel.h"
 #import "HomeView.h"
+#import "StoreListViewController.h"
 
 @interface ViewController ()
 
@@ -20,6 +21,7 @@
 
 @implementation ViewController
 
+#pragma mark: - lift cycle
 - (void)viewDidLoad {
     [super viewDidLoad];
     // 这个属性一般是在SB上才会用设置，不然页面会显示不正常
@@ -30,6 +32,7 @@
     
 }
 
+#pragma mark: - private Methods
 - (void) setupUI {
     [self setupNavBar];
 }
@@ -66,8 +69,10 @@
     [[self.homeViewModel.cellClickSubject takeUntil:self.rac_willDeallocSignal] subscribeNext:^(id x) {
         @strongify(self);
         NSLog(@"%@", x);
-        UIViewController *VC = [UIViewController new];
-        VC.view.backgroundColor = [UIColor whiteColor];
+        
+        // 跳转到店铺列表页面
+        UIStoryboard *sb = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+        StoreListViewController *VC = [sb instantiateViewControllerWithIdentifier:@"StoreList"];
         [self.navigationController pushViewController:VC animated:YES];
         
     }];

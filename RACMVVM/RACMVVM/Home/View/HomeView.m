@@ -18,15 +18,19 @@
 
 @implementation HomeView
 
-- (void)setHomeViewModel:(HomeViewModel *)homeViewModel {
-    _homeViewModel = homeViewModel;
-}
 
 - (void)awakeFromNib {
     [super awakeFromNib];
     [self setupUI];
 }
 
+#pragma mark: - getter and setter
+- (void)setHomeViewModel:(HomeViewModel *)homeViewModel {
+    _homeViewModel = homeViewModel;
+}
+
+
+#pragma mark: - private methods
 - (void) setupUI {
     
     [self setupTableView];

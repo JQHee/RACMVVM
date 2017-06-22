@@ -19,6 +19,16 @@
 		04BD48271E57D4BA001454CD /* HomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BD48261E57D4BA001454CD /* HomeView.m */; };
 		04BD48331E57D55F001454CD /* HomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BD48321E57D55F001454CD /* HomeModel.m */; };
 		04BD483C1E57D5EA001454CD /* HomeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BD483B1E57D5EA001454CD /* HomeCell.m */; };
+		664B0CC11EEB18FE00AD39E9 /* JSCartModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 664B0CAC1EEB18FD00AD39E9 /* JSCartModel.m */; };
+		664B0CC21EEB18FE00AD39E9 /* JSCartBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 664B0CAF1EEB18FD00AD39E9 /* JSCartBar.m */; };
+		664B0CC31EEB18FE00AD39E9 /* JSCartCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 664B0CB11EEB18FD00AD39E9 /* JSCartCell.m */; };
+		664B0CC41EEB18FE00AD39E9 /* JSCartCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 664B0CB21EEB18FD00AD39E9 /* JSCartCell.xib */; };
+		664B0CC51EEB18FE00AD39E9 /* JSCartFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 664B0CB41EEB18FD00AD39E9 /* JSCartFooterView.m */; };
+		664B0CC61EEB18FE00AD39E9 /* JSCartHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 664B0CB61EEB18FD00AD39E9 /* JSCartHeaderView.m */; };
+		664B0CC71EEB18FE00AD39E9 /* JSNummberCount.m in Sources */ = {isa = PBXBuildFile; fileRef = 664B0CB81EEB18FD00AD39E9 /* JSNummberCount.m */; };
+		664B0CC81EEB18FE00AD39E9 /* JSCartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 664B0CBB1EEB18FD00AD39E9 /* JSCartViewController.m */; };
+		664B0CC91EEB18FE00AD39E9 /* JSCartUIService.m in Sources */ = {isa = PBXBuildFile; fileRef = 664B0CBE1EEB18FD00AD39E9 /* JSCartUIService.m */; };
+		664B0CCA1EEB18FE00AD39E9 /* JSCartViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 664B0CC01EEB18FD00AD39E9 /* JSCartViewModel.m */; };
 		666244941EEA2CEE00EFCB3C /* StoreListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 666244931EEA2CEE00EFCB3C /* StoreListViewController.m */; };
 		666244971EEA2D1700EFCB3C /* StoreListViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 666244961EEA2D1700EFCB3C /* StoreListViewModel.m */; };
 		6662449A1EEA2D3900EFCB3C /* StoreListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 666244991EEA2D3900EFCB3C /* StoreListModel.m */; };
@@ -74,6 +84,25 @@
 		04BD483A1E57D5EA001454CD /* HomeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeCell.h; sourceTree = "<group>"; };
 		04BD483B1E57D5EA001454CD /* HomeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeCell.m; sourceTree = "<group>"; };
 		2DBFFE4E322E1F58F6E5B7BD /* Pods_RACMVVM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RACMVVM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		664B0CAB1EEB18FD00AD39E9 /* JSCartModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSCartModel.h; sourceTree = "<group>"; };
+		664B0CAC1EEB18FD00AD39E9 /* JSCartModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSCartModel.m; sourceTree = "<group>"; };
+		664B0CAE1EEB18FD00AD39E9 /* JSCartBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSCartBar.h; sourceTree = "<group>"; };
+		664B0CAF1EEB18FD00AD39E9 /* JSCartBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSCartBar.m; sourceTree = "<group>"; };
+		664B0CB01EEB18FD00AD39E9 /* JSCartCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSCartCell.h; sourceTree = "<group>"; };
+		664B0CB11EEB18FD00AD39E9 /* JSCartCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSCartCell.m; sourceTree = "<group>"; };
+		664B0CB21EEB18FD00AD39E9 /* JSCartCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JSCartCell.xib; sourceTree = "<group>"; };
+		664B0CB31EEB18FD00AD39E9 /* JSCartFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSCartFooterView.h; sourceTree = "<group>"; };
+		664B0CB41EEB18FD00AD39E9 /* JSCartFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSCartFooterView.m; sourceTree = "<group>"; };
+		664B0CB51EEB18FD00AD39E9 /* JSCartHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSCartHeaderView.h; sourceTree = "<group>"; };
+		664B0CB61EEB18FD00AD39E9 /* JSCartHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSCartHeaderView.m; sourceTree = "<group>"; };
+		664B0CB71EEB18FD00AD39E9 /* JSNummberCount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSNummberCount.h; sourceTree = "<group>"; };
+		664B0CB81EEB18FD00AD39E9 /* JSNummberCount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSNummberCount.m; sourceTree = "<group>"; };
+		664B0CBA1EEB18FD00AD39E9 /* JSCartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSCartViewController.h; sourceTree = "<group>"; };
+		664B0CBB1EEB18FD00AD39E9 /* JSCartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSCartViewController.m; sourceTree = "<group>"; };
+		664B0CBD1EEB18FD00AD39E9 /* JSCartUIService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSCartUIService.h; sourceTree = "<group>"; };
+		664B0CBE1EEB18FD00AD39E9 /* JSCartUIService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSCartUIService.m; sourceTree = "<group>"; };
+		664B0CBF1EEB18FD00AD39E9 /* JSCartViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSCartViewModel.h; sourceTree = "<group>"; };
+		664B0CC01EEB18FD00AD39E9 /* JSCartViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSCartViewModel.m; sourceTree = "<group>"; };
 		666244921EEA2CEE00EFCB3C /* StoreListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoreListViewController.h; sourceTree = "<group>"; };
 		666244931EEA2CEE00EFCB3C /* StoreListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoreListViewController.m; sourceTree = "<group>"; };
 		666244951EEA2D1700EFCB3C /* StoreListViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoreListViewModel.h; sourceTree = "<group>"; };
@@ -139,6 +168,7 @@
 		04BD47E21E57CF14001454CD /* RACMVVM */ = {
 			isa = PBXGroup;
 			children = (
+				664B0CA91EEB18FD00AD39E9 /* ShopCart */,
 				6662449E1EEA3CE500EFCB3C /* Core */,
 				6662448D1EEA2C5B00EFCB3C /* Store */,
 				04BD48181E57D29D001454CD /* Home */,
@@ -228,6 +258,64 @@
 				04BD48201E57D35E001454CD /* BaseViewModel.h */,
 				04BD48211E57D3B5001454CD /* HomeViewModel.h */,
 				04BD48221E57D3B5001454CD /* HomeViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		664B0CA91EEB18FD00AD39E9 /* ShopCart */ = {
+			isa = PBXGroup;
+			children = (
+				664B0CAA1EEB18FD00AD39E9 /* Model */,
+				664B0CAD1EEB18FD00AD39E9 /* View */,
+				664B0CB91EEB18FD00AD39E9 /* ViewController */,
+				664B0CBC1EEB18FD00AD39E9 /* ViewModel */,
+			);
+			path = ShopCart;
+			sourceTree = "<group>";
+		};
+		664B0CAA1EEB18FD00AD39E9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				664B0CAB1EEB18FD00AD39E9 /* JSCartModel.h */,
+				664B0CAC1EEB18FD00AD39E9 /* JSCartModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		664B0CAD1EEB18FD00AD39E9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				664B0CAE1EEB18FD00AD39E9 /* JSCartBar.h */,
+				664B0CAF1EEB18FD00AD39E9 /* JSCartBar.m */,
+				664B0CB01EEB18FD00AD39E9 /* JSCartCell.h */,
+				664B0CB11EEB18FD00AD39E9 /* JSCartCell.m */,
+				664B0CB21EEB18FD00AD39E9 /* JSCartCell.xib */,
+				664B0CB31EEB18FD00AD39E9 /* JSCartFooterView.h */,
+				664B0CB41EEB18FD00AD39E9 /* JSCartFooterView.m */,
+				664B0CB51EEB18FD00AD39E9 /* JSCartHeaderView.h */,
+				664B0CB61EEB18FD00AD39E9 /* JSCartHeaderView.m */,
+				664B0CB71EEB18FD00AD39E9 /* JSNummberCount.h */,
+				664B0CB81EEB18FD00AD39E9 /* JSNummberCount.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		664B0CB91EEB18FD00AD39E9 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				664B0CBA1EEB18FD00AD39E9 /* JSCartViewController.h */,
+				664B0CBB1EEB18FD00AD39E9 /* JSCartViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		664B0CBC1EEB18FD00AD39E9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				664B0CBD1EEB18FD00AD39E9 /* JSCartUIService.h */,
+				664B0CBE1EEB18FD00AD39E9 /* JSCartUIService.m */,
+				664B0CBF1EEB18FD00AD39E9 /* JSCartViewModel.h */,
+				664B0CC01EEB18FD00AD39E9 /* JSCartViewModel.m */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -417,6 +505,7 @@
 			files = (
 				04BD47F31E57CF14001454CD /* LaunchScreen.storyboard in Resources */,
 				04BD47F01E57CF14001454CD /* Assets.xcassets in Resources */,
+				664B0CC41EEB18FE00AD39E9 /* JSCartCell.xib in Resources */,
 				04BD47EE1E57CF14001454CD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -490,17 +579,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				664B0CC31EEB18FE00AD39E9 /* JSCartCell.m in Sources */,
 				04BD48331E57D55F001454CD /* HomeModel.m in Sources */,
 				04BD483C1E57D5EA001454CD /* HomeCell.m in Sources */,
 				04BD481F1E57D2E9001454CD /* ViewController.m in Sources */,
+				664B0CC61EEB18FE00AD39E9 /* JSCartHeaderView.m in Sources */,
 				6662449D1EEA2F1700EFCB3C /* StoreListTableViewCell.m in Sources */,
+				664B0CC91EEB18FE00AD39E9 /* JSCartUIService.m in Sources */,
 				666244A11EEA3D0400EFCB3C /* QFNetworking.m in Sources */,
 				04BD47E81E57CF14001454CD /* AppDelegate.m in Sources */,
 				666244971EEA2D1700EFCB3C /* StoreListViewModel.m in Sources */,
 				6662449A1EEA2D3900EFCB3C /* StoreListModel.m in Sources */,
+				664B0CC21EEB18FE00AD39E9 /* JSCartBar.m in Sources */,
+				664B0CCA1EEB18FE00AD39E9 /* JSCartViewModel.m in Sources */,
+				664B0CC81EEB18FE00AD39E9 /* JSCartViewController.m in Sources */,
+				664B0CC71EEB18FE00AD39E9 /* JSNummberCount.m in Sources */,
 				666244941EEA2CEE00EFCB3C /* StoreListViewController.m in Sources */,
 				04BD48271E57D4BA001454CD /* HomeView.m in Sources */,
+				664B0CC11EEB18FE00AD39E9 /* JSCartModel.m in Sources */,
 				04BD47E51E57CF14001454CD /* main.m in Sources */,
+				664B0CC51EEB18FE00AD39E9 /* JSCartFooterView.m in Sources */,
 				04BD48231E57D3B5001454CD /* HomeViewModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

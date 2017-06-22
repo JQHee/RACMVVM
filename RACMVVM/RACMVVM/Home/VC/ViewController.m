@@ -10,6 +10,7 @@
 #import "HomeViewModel.h"
 #import "HomeView.h"
 #import "StoreListViewController.h"
+#import "JSCartViewController.h"
 
 @interface ViewController ()
 
@@ -71,8 +72,12 @@
         NSLog(@"%@", x);
         
         // 跳转到店铺列表页面
-        UIStoryboard *sb = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
-        StoreListViewController *VC = [sb instantiateViewControllerWithIdentifier:@"StoreList"];
+//        UIStoryboard *sb = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+//        StoreListViewController *VC = [sb instantiateViewControllerWithIdentifier:@"StoreList"];
+//        [self.navigationController pushViewController:VC animated:YES];
+        
+        // 购物车
+        JSCartViewController *VC = [[JSCartViewController alloc]init];
         [self.navigationController pushViewController:VC animated:YES];
         
     }];

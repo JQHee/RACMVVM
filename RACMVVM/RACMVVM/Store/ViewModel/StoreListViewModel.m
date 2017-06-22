@@ -19,6 +19,7 @@
 
 @implementation StoreListViewModel
 
+
 - (instancetype)init {
     self = [super init];
     if (self) {
